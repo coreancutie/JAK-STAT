@@ -77,7 +77,14 @@ app.layout = html.Div([
 @app.callback(
     Output("graph", "figure"),
     Input("dropdown", "value"))
-def update_bar_chart(form_pair_str):
+def update_scatter_plot(form_pair_str):
+    #TODO: update docstring
+    '''
+    Docstring for update_scatterplot
+    
+    :param form_pair_str: Description
+    :returns: 
+    '''
     form_1, form_2 = form_pairs_dict[form_pair_str]
     # only filtering off of formula 1 since we don't need to filter off of formula 2 as well
     filtered_dmso_deg = paired_dmso_ref_deg[paired_dmso_ref_deg['group_form_1'] == form_1]
