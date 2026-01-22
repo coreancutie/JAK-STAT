@@ -10,6 +10,7 @@ pd.set_option('display.max_columns', None)
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 form_pairs_deg = pd.read_csv('form_pairs_deg.csv')
+form_pairs_deg['snp'] = None
 
 # print(form_pairs_deg)
 
@@ -90,13 +91,19 @@ app.layout = html.Div(
             )
         ]),
         dbc.Row([
-            dcc.Graph(id="scatter")
-        ]),
-        dbc.Row([
-            dcc.Graph(id="volcano")
+            dbc.Col(
+                width = 4,
+                children = [dcc.Graph(id="scatter")]
+            ),
+            dbc.Col(
+                width = 4,
+                children = [dcc.Graph(id="volcano")]
+            )
         ])
     ]
 )
+
+# todo: add callback for hover where it shows that data point across graphs
 
 @app.callback(
     [Output("scatter", "figure"),
@@ -110,6 +117,7 @@ def update_figures(form_pair_str, cell_type_str):
     filtered_dmso_deg = paired_dmso_ref_deg[paired_dmso_ref_deg['group_form_1'] == form_1]
     filtered_dmso_deg = filtered_dmso_deg[filtered_dmso_deg['cell_type'] == cell_type_str]
 
+    # scatter plot updates
     scatter_fig = px.scatter(
         filtered_dmso_deg,
         x='logfoldchanges_form_1', 
@@ -125,18 +133,18 @@ def update_figures(form_pair_str, cell_type_str):
         }
     )
 
+    # 
     filtered_pairs_deg = form_pairs_deg[form_pairs_deg['form_1'] == form_1]
     filtered_pairs_deg = filtered_pairs_deg[filtered_pairs_deg['cell_type'] == cell_type_str]
-    # Reset the index to default integers
+    # Reset the index to default integers because there were errors when there were genes of interest
     filtered_pairs_deg.reset_index(inplace=True)
 
-    print(filtered_pairs_deg)
-
+    #TODO: fix the snp attribute
     volcano_fig = dash_bio.VolcanoPlot(
         dataframe = filtered_pairs_deg,
         effect_size = 'logfoldchanges',
         p = 'pvals_adj',
-        snp = 'names',
+        snp = 'snp',
         gene = 'names'
     )
 
@@ -144,5 +152,10 @@ def update_figures(form_pair_str, cell_type_str):
 
 # dcc.Graph(figure=px.histogram(dmso_ref_deg, x='continent', y='lifeExp', histfunc='avg'))
 
+# todo: for future -- if doing ssGSEA across formulations can add a volcano plot showing the pathways next to 
+# the existing plots
+
 if __name__ == '__main__':
     app.run(debug=True)
+
+
