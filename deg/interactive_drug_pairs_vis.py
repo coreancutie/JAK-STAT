@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+
+# Import packages:
 from dash import Dash, dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
@@ -9,15 +11,16 @@ pd.set_option('display.max_columns', None)
 
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-form_pairs_deg = pd.read_csv('form_pairs_deg.csv')
+# Load in the data:
+form_pairs_deg = pd.read_csv('./deg_final_files/head-to-head_wilcoxon_deg_results.csv') # Drug vs. drug: formulation-specific effects
 form_pairs_deg['snp'] = None
 
 # print(form_pairs_deg)
 
-dmso_ref_deg = pd.read_csv('dmso_ref_deg.csv')
-# easiest way to get drug pairs df
-form_pairs_df = form_pairs_deg[['form_1', 'form_2']].drop_duplicates()
+dmso_ref_deg = pd.read_csv('./deg_final_files/wilcoxon_deg_results.csv') # Drug vs. DMSO: drug vs. "healthy state" reference
 
+# Creating drug-pair dropdown:
+form_pairs_df = form_pairs_deg[['form_1', 'form_2']].drop_duplicates() # easiest way to get drug pairs df
 # making this for the sake of the dropdown later
 form_pairs_dict = {}
 
@@ -32,7 +35,7 @@ def process_dmso_ref_data():
     '''
     Docstring for process_dmso_ref_data
 
-    returns: pandas dataframe with DMSO reference deg 
+    returns: pandas dataframe with DMSO reference deg results
     '''
     # form_pairs = get_form_pairs_df()
     paired_names_dmso_df = pd.merge(dmso_ref_deg, form_pairs_df, left_on='group', right_on='form_1')
