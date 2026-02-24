@@ -19,4 +19,12 @@ This project aims to:
 
 ## Enviroment
 
-All code was run on the Human Immune System Explorer (HISE) through the Allen Institute for Immunology. All scrips are compatible on Python3. 
+All code was run on the Human Immune System Explorer (HISE) through the Allen Institute for Immunology. All jupyter notebooks are compatible on Python3. 
+
+## Repository Structure 
+
+### Differentially Expressed Genes (DEG)
+
+### Gene Set Enrichment Analysis (gseapy)
+
+### Single Sample Gene Set Enrichment Analysis (ssgsea)
