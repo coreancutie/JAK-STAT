@@ -8,7 +8,7 @@ The Allen Institue team preprocessed, annotated, and handled the data and their 
 
 ## Project Biological Background
 
-The Interleukin 6 (IL-6)  Janus kinases/  Signal Transducers and Activators of Transcription (JAK/STAT) pathway helps regulate the body’s inflammatory response through differentiation of T-Cells. The IL-6 cytokine protein binds to T-cell surfaces and activates JAK/STAT proteins downstream inside the cell. The STAT proteins get phosphorylated when activated and turns transcription factors on and off inside the cell nucleus. High levels of IL-6 are part of cytokine storm responses in diseases like COVID-19 and autoimmune diseases such as rheumatoid arthritis. Common treatments of these diseases to reduce the inflammatory response are treatments with inhibitors along the JAK/STAT pathway.
+The Interleukin 6 (IL-6)  Janus kinases/Signal Transducers and Activators of Transcription (JAK/STAT) pathway helps regulate the body’s inflammatory response through differentiation of T-Cells. The IL-6 cytokine protein binds to T-cell surfaces and activates JAK/STAT proteins downstream inside the cell. The STAT proteins get phosphorylated when activated and turns transcription factors on and off inside the cell nucleus. High levels of IL-6 are part of cytokine storm responses in diseases like COVID-19 and autoimmune diseases such as rheumatoid arthritis. Common treatments of these diseases to reduce the inflammatory response are treatments with inhibitors along the JAK/STAT pathway.
 
 ## Project Goals
 
@@ -16,3 +16,7 @@ This project aims to:
 - investigate isolated T-cell response to 16 JAK/STAT inhibitors
 - identify differences between formulations
 - explore off-target effects using singlecell RNA-sequencing data
+
+## Enviroment
+
+All code was run on the Human Immune System Explorer (HISE) through the Allen Institute for Immunology. All scrips are compatible on Python3. 
