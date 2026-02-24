@@ -1,0 +1,273 @@
+,group,regulation_dir,count,cell_type
+0,IL-6 control,Down,173,CD4 Central Memory
+1,IL-6 control,Up,174,CD4 Central Memory
+2,Afatinib,Down,256,CD4 Central Memory
+3,Afatinib,Up,223,CD4 Central Memory
+4,Afatinib dimaleate,Down,313,CD4 Central Memory
+5,Afatinib dimaleate,Up,221,CD4 Central Memory
+6,Baricitinib,Down,162,CD4 Central Memory
+7,Baricitinib,Up,166,CD4 Central Memory
+8,Baricitinib phosphate,Down,128,CD4 Central Memory
+9,Baricitinib phosphate,Up,140,CD4 Central Memory
+10,Canertinib,Down,231,CD4 Central Memory
+11,Canertinib,Up,271,CD4 Central Memory
+12,Canertinib dihydrochloride,Down,226,CD4 Central Memory
+13,Canertinib dihydrochloride,Up,281,CD4 Central Memory
+14,Erlotinib,Down,161,CD4 Central Memory
+15,Erlotinib,Up,193,CD4 Central Memory
+16,Erlotinib hydrochloride,Down,210,CD4 Central Memory
+17,Erlotinib hydrochloride,Up,175,CD4 Central Memory
+18,Gefitinib,Down,162,CD4 Central Memory
+19,Gefitinib,Up,160,CD4 Central Memory
+20,Gefitinib hydrochloride,Down,164,CD4 Central Memory
+21,Gefitinib hydrochloride,Up,167,CD4 Central Memory
+22,NVP-BSK805,Down,232,CD4 Central Memory
+23,NVP-BSK805,Up,161,CD4 Central Memory
+24,NVP-BSK805 2HCl,Down,197,CD4 Central Memory
+25,NVP-BSK805 2HCl,Up,140,CD4 Central Memory
+26,Ruxolitinib,Down,138,CD4 Central Memory
+27,Ruxolitinib,Up,149,CD4 Central Memory
+28,Ruxolitinib phosphate,Down,195,CD4 Central Memory
+29,Ruxolitinib phosphate,Up,153,CD4 Central Memory
+30,Tofacitinib citrate,Down,30,CD4 Central Memory
+31,Tofacitinib citrate,Up,44,CD4 Central Memory
+32,Tofacitinib,Down,34,CD4 Central Memory
+33,Tofacitinib,Up,43,CD4 Central Memory
+0,IL-6 control,Down,240,CD8 Naive
+1,IL-6 control,Up,271,CD8 Naive
+2,Afatinib,Down,251,CD8 Naive
+3,Afatinib,Up,254,CD8 Naive
+4,Afatinib dimaleate,Down,302,CD8 Naive
+5,Afatinib dimaleate,Up,255,CD8 Naive
+6,Baricitinib,Down,158,CD8 Naive
+7,Baricitinib,Up,156,CD8 Naive
+8,Baricitinib phosphate,Down,137,CD8 Naive
+9,Baricitinib phosphate,Up,136,CD8 Naive
+10,Canertinib,Down,293,CD8 Naive
+11,Canertinib,Up,254,CD8 Naive
+12,Canertinib dihydrochloride,Down,263,CD8 Naive
+13,Canertinib dihydrochloride,Up,256,CD8 Naive
+14,Erlotinib,Down,230,CD8 Naive
+15,Erlotinib,Up,255,CD8 Naive
+16,Erlotinib hydrochloride,Down,250,CD8 Naive
+17,Erlotinib hydrochloride,Up,258,CD8 Naive
+18,Gefitinib,Down,210,CD8 Naive
+19,Gefitinib,Up,231,CD8 Naive
+20,Gefitinib hydrochloride,Down,235,CD8 Naive
+21,Gefitinib hydrochloride,Up,253,CD8 Naive
+22,NVP-BSK805,Down,206,CD8 Naive
+23,NVP-BSK805,Up,199,CD8 Naive
+24,NVP-BSK805 2HCl,Down,187,CD8 Naive
+25,NVP-BSK805 2HCl,Up,196,CD8 Naive
+26,Ruxolitinib,Down,137,CD8 Naive
+27,Ruxolitinib,Up,176,CD8 Naive
+28,Ruxolitinib phosphate,Down,156,CD8 Naive
+29,Ruxolitinib phosphate,Up,142,CD8 Naive
+30,Tofacitinib citrate,Down,77,CD8 Naive
+31,Tofacitinib citrate,Up,81,CD8 Naive
+32,Tofacitinib,Down,88,CD8 Naive
+33,Tofacitinib,Up,93,CD8 Naive
+0,IL-6 control,Down,249,CD4 Naive
+1,IL-6 control,Up,294,CD4 Naive
+2,Afatinib,Down,282,CD4 Naive
+3,Afatinib,Up,288,CD4 Naive
+4,Afatinib dimaleate,Down,342,CD4 Naive
+5,Afatinib dimaleate,Up,286,CD4 Naive
+6,Baricitinib,Down,188,CD4 Naive
+7,Baricitinib,Up,205,CD4 Naive
+8,Baricitinib phosphate,Down,173,CD4 Naive
+9,Baricitinib phosphate,Up,183,CD4 Naive
+10,Canertinib,Down,310,CD4 Naive
+11,Canertinib,Up,289,CD4 Naive
+12,Canertinib dihydrochloride,Down,290,CD4 Naive
+13,Canertinib dihydrochloride,Up,297,CD4 Naive
+14,Erlotinib,Down,227,CD4 Naive
+15,Erlotinib,Up,309,CD4 Naive
+16,Erlotinib hydrochloride,Down,281,CD4 Naive
+17,Erlotinib hydrochloride,Up,299,CD4 Naive
+18,Gefitinib,Down,243,CD4 Naive
+19,Gefitinib,Up,291,CD4 Naive
+20,Gefitinib hydrochloride,Down,247,CD4 Naive
+21,Gefitinib hydrochloride,Up,291,CD4 Naive
+22,NVP-BSK805,Down,267,CD4 Naive
+23,NVP-BSK805,Up,245,CD4 Naive
+24,NVP-BSK805 2HCl,Down,254,CD4 Naive
+25,NVP-BSK805 2HCl,Up,235,CD4 Naive
+26,Ruxolitinib,Down,154,CD4 Naive
+27,Ruxolitinib,Up,192,CD4 Naive
+28,Ruxolitinib phosphate,Down,173,CD4 Naive
+29,Ruxolitinib phosphate,Up,171,CD4 Naive
+30,Tofacitinib citrate,Down,132,CD4 Naive
+31,Tofacitinib citrate,Up,122,CD4 Naive
+32,Tofacitinib,Down,153,CD4 Naive
+33,Tofacitinib,Up,151,CD4 Naive
+0,IL-6 control,Down,129,Treg
+1,IL-6 control,Up,119,Treg
+2,Afatinib,Down,133,Treg
+3,Afatinib,Up,117,Treg
+4,Afatinib dimaleate,Down,138,Treg
+5,Afatinib dimaleate,Up,130,Treg
+6,Baricitinib,Down,57,Treg
+7,Baricitinib,Up,43,Treg
+8,Baricitinib phosphate,Down,35,Treg
+9,Baricitinib phosphate,Up,48,Treg
+10,Canertinib,Down,144,Treg
+11,Canertinib,Up,146,Treg
+12,Canertinib dihydrochloride,Down,149,Treg
+13,Canertinib dihydrochloride,Up,132,Treg
+14,Erlotinib,Down,136,Treg
+15,Erlotinib,Up,119,Treg
+16,Erlotinib hydrochloride,Down,116,Treg
+17,Erlotinib hydrochloride,Up,100,Treg
+18,Gefitinib,Down,126,Treg
+19,Gefitinib,Up,111,Treg
+20,Gefitinib hydrochloride,Down,128,Treg
+21,Gefitinib hydrochloride,Up,111,Treg
+22,NVP-BSK805,Down,60,Treg
+23,NVP-BSK805,Up,85,Treg
+24,NVP-BSK805 2HCl,Down,39,Treg
+25,NVP-BSK805 2HCl,Up,57,Treg
+26,Ruxolitinib,Down,44,Treg
+27,Ruxolitinib,Up,44,Treg
+28,Ruxolitinib phosphate,Down,34,Treg
+29,Ruxolitinib phosphate,Up,43,Treg
+30,Tofacitinib citrate,Down,13,Treg
+31,Tofacitinib citrate,Up,11,Treg
+32,Tofacitinib,Down,16,Treg
+33,Tofacitinib,Up,19,Treg
+0,IL-6 control,Down,35,CD8 Central Memory
+1,IL-6 control,Up,29,CD8 Central Memory
+2,Afatinib,Down,117,CD8 Central Memory
+3,Afatinib,Up,112,CD8 Central Memory
+4,Afatinib dimaleate,Down,113,CD8 Central Memory
+5,Afatinib dimaleate,Up,111,CD8 Central Memory
+6,Baricitinib,Down,79,CD8 Central Memory
+7,Baricitinib,Up,71,CD8 Central Memory
+8,Baricitinib phosphate,Down,40,CD8 Central Memory
+9,Baricitinib phosphate,Up,40,CD8 Central Memory
+10,Canertinib,Down,197,CD8 Central Memory
+11,Canertinib,Up,173,CD8 Central Memory
+12,Canertinib dihydrochloride,Down,161,CD8 Central Memory
+13,Canertinib dihydrochloride,Up,152,CD8 Central Memory
+14,Erlotinib,Down,69,CD8 Central Memory
+15,Erlotinib,Up,44,CD8 Central Memory
+16,Erlotinib hydrochloride,Down,47,CD8 Central Memory
+17,Erlotinib hydrochloride,Up,41,CD8 Central Memory
+18,Gefitinib,Down,40,CD8 Central Memory
+19,Gefitinib,Up,30,CD8 Central Memory
+20,Gefitinib hydrochloride,Down,31,CD8 Central Memory
+21,Gefitinib hydrochloride,Up,27,CD8 Central Memory
+22,NVP-BSK805,Down,72,CD8 Central Memory
+23,NVP-BSK805,Up,113,CD8 Central Memory
+24,NVP-BSK805 2HCl,Down,48,CD8 Central Memory
+25,NVP-BSK805 2HCl,Up,104,CD8 Central Memory
+26,Ruxolitinib,Down,63,CD8 Central Memory
+27,Ruxolitinib,Up,72,CD8 Central Memory
+28,Ruxolitinib phosphate,Down,61,CD8 Central Memory
+29,Ruxolitinib phosphate,Up,84,CD8 Central Memory
+30,Tofacitinib citrate,Down,7,CD8 Central Memory
+31,Tofacitinib citrate,Up,4,CD8 Central Memory
+32,Tofacitinib,Down,7,CD8 Central Memory
+33,Tofacitinib,Up,5,CD8 Central Memory
+0,IL-6 control,Down,7,CD4 Effector Memory
+1,IL-6 control,Up,0,CD4 Effector Memory
+2,Afatinib,Down,109,CD4 Effector Memory
+3,Afatinib,Up,86,CD4 Effector Memory
+4,Afatinib dimaleate,Down,93,CD4 Effector Memory
+5,Afatinib dimaleate,Up,112,CD4 Effector Memory
+6,Baricitinib,Down,110,CD4 Effector Memory
+7,Baricitinib,Up,75,CD4 Effector Memory
+8,Baricitinib phosphate,Down,91,CD4 Effector Memory
+9,Baricitinib phosphate,Up,74,CD4 Effector Memory
+10,Canertinib,Down,244,CD4 Effector Memory
+11,Canertinib,Up,199,CD4 Effector Memory
+12,Canertinib dihydrochloride,Down,216,CD4 Effector Memory
+13,Canertinib dihydrochloride,Up,194,CD4 Effector Memory
+14,Erlotinib,Down,52,CD4 Effector Memory
+15,Erlotinib,Up,27,CD4 Effector Memory
+16,Erlotinib hydrochloride,Down,44,CD4 Effector Memory
+17,Erlotinib hydrochloride,Up,64,CD4 Effector Memory
+18,Gefitinib,Down,33,CD4 Effector Memory
+19,Gefitinib,Up,13,CD4 Effector Memory
+20,Gefitinib hydrochloride,Down,25,CD4 Effector Memory
+21,Gefitinib hydrochloride,Up,9,CD4 Effector Memory
+22,NVP-BSK805,Down,97,CD4 Effector Memory
+23,NVP-BSK805,Up,116,CD4 Effector Memory
+24,NVP-BSK805 2HCl,Down,76,CD4 Effector Memory
+25,NVP-BSK805 2HCl,Up,100,CD4 Effector Memory
+26,Ruxolitinib,Down,79,CD4 Effector Memory
+27,Ruxolitinib,Up,86,CD4 Effector Memory
+28,Ruxolitinib phosphate,Down,251,CD4 Effector Memory
+29,Ruxolitinib phosphate,Up,225,CD4 Effector Memory
+30,Tofacitinib citrate,Down,7,CD4 Effector Memory
+31,Tofacitinib citrate,Up,12,CD4 Effector Memory
+32,Tofacitinib,Down,4,CD4 Effector Memory
+33,Tofacitinib,Up,1,CD4 Effector Memory
+0,IL-6 control,Down,0,MAIT
+1,IL-6 control,Up,0,MAIT
+2,Afatinib,Down,37,MAIT
+3,Afatinib,Up,35,MAIT
+4,Afatinib dimaleate,Down,41,MAIT
+5,Afatinib dimaleate,Up,44,MAIT
+6,Baricitinib,Down,2,MAIT
+7,Baricitinib,Up,2,MAIT
+8,Baricitinib phosphate,Down,1,MAIT
+9,Baricitinib phosphate,Up,1,MAIT
+10,Canertinib,Down,109,MAIT
+11,Canertinib,Up,72,MAIT
+12,Canertinib dihydrochloride,Down,81,MAIT
+13,Canertinib dihydrochloride,Up,76,MAIT
+14,Erlotinib,Down,4,MAIT
+15,Erlotinib,Up,0,MAIT
+16,Erlotinib hydrochloride,Down,10,MAIT
+17,Erlotinib hydrochloride,Up,3,MAIT
+18,Gefitinib,Down,17,MAIT
+19,Gefitinib,Up,0,MAIT
+20,Gefitinib hydrochloride,Down,0,MAIT
+21,Gefitinib hydrochloride,Up,0,MAIT
+22,NVP-BSK805,Down,5,MAIT
+23,NVP-BSK805,Up,12,MAIT
+24,NVP-BSK805 2HCl,Down,2,MAIT
+25,NVP-BSK805 2HCl,Up,15,MAIT
+26,Ruxolitinib,Down,6,MAIT
+27,Ruxolitinib,Up,21,MAIT
+28,Ruxolitinib phosphate,Down,18,MAIT
+29,Ruxolitinib phosphate,Up,53,MAIT
+30,Tofacitinib citrate,Down,0,MAIT
+31,Tofacitinib citrate,Up,0,MAIT
+32,Tofacitinib,Down,0,MAIT
+33,Tofacitinib,Up,0,MAIT
+0,IL-6 control,Down,1,CD8 Effector Memory
+1,IL-6 control,Up,0,CD8 Effector Memory
+2,Afatinib,Down,106,CD8 Effector Memory
+3,Afatinib,Up,88,CD8 Effector Memory
+4,Afatinib dimaleate,Down,99,CD8 Effector Memory
+5,Afatinib dimaleate,Up,117,CD8 Effector Memory
+6,Baricitinib,Down,77,CD8 Effector Memory
+7,Baricitinib,Up,54,CD8 Effector Memory
+8,Baricitinib phosphate,Down,63,CD8 Effector Memory
+9,Baricitinib phosphate,Up,62,CD8 Effector Memory
+10,Canertinib,Down,235,CD8 Effector Memory
+11,Canertinib,Up,214,CD8 Effector Memory
+12,Canertinib dihydrochloride,Down,218,CD8 Effector Memory
+13,Canertinib dihydrochloride,Up,210,CD8 Effector Memory
+14,Erlotinib,Down,65,CD8 Effector Memory
+15,Erlotinib,Up,29,CD8 Effector Memory
+16,Erlotinib hydrochloride,Down,57,CD8 Effector Memory
+17,Erlotinib hydrochloride,Up,59,CD8 Effector Memory
+18,Gefitinib,Down,38,CD8 Effector Memory
+19,Gefitinib,Up,21,CD8 Effector Memory
+20,Gefitinib hydrochloride,Down,16,CD8 Effector Memory
+21,Gefitinib hydrochloride,Up,10,CD8 Effector Memory
+22,NVP-BSK805,Down,73,CD8 Effector Memory
+23,NVP-BSK805,Up,110,CD8 Effector Memory
+24,NVP-BSK805 2HCl,Down,54,CD8 Effector Memory
+25,NVP-BSK805 2HCl,Up,92,CD8 Effector Memory
+26,Ruxolitinib,Down,65,CD8 Effector Memory
+27,Ruxolitinib,Up,72,CD8 Effector Memory
+28,Ruxolitinib phosphate,Down,142,CD8 Effector Memory
+29,Ruxolitinib phosphate,Up,179,CD8 Effector Memory
+30,Tofacitinib citrate,Down,1,CD8 Effector Memory
+31,Tofacitinib citrate,Up,0,CD8 Effector Memory
+32,Tofacitinib,Down,3,CD8 Effector Memory
+33,Tofacitinib,Up,0,CD8 Effector Memory
