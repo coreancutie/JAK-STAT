@@ -80,8 +80,8 @@ Below is the tree structure of this repository. The directories that are not col
         └── il6_jak-stat_paired-form_ssgsea_progeny.csv
 ```
 
-### Differentially Expressed Genes (deg)
+### Differentially Expressed Genes (deg):
 
-### Gene Set Enrichment Analysis (gseapy)
+### Gene Set Enrichment Analysis (gseapy):
 
-### Single Sample Gene Set Enrichment Analysis (ssgsea)
+### Single Sample Gene Set Enrichment Analysis (ssgsea):
