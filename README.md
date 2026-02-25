@@ -3,7 +3,7 @@ This is a repository for the JAK/STAT project at the University of Oregon Knight
 
 This project analyzes data from the larger [IL-6 + JAK/STAT Inhibitors](https://apps.allenimmunology.org/aifi/resources/10x-flex-il6/) project, *10x Flex v2 Enables High Throughput IL-6 Signaling Inhibitor Analysis in T cells*, where the effects of 88 different JAK/STAT inhibitors were studied using a prototype 10x Flex kit. 
 
-This specific project [formulation comparison](https://apps.allenimmunology.org/aifi/resources/10x-flex-il6/formulations/) focuses on the isolated T-cell responses between eight different JAK/STAT inhibitors with two formulations each (for a total of 16 inhibitors), as well as two controls (a positive, IL-6 treated control and a negative DMSO control).
+This specific [formulation comparisons](https://apps.allenimmunology.org/aifi/resources/10x-flex-il6/formulations/) project focuses on the isolated T-cell responses between eight different JAK/STAT inhibitors with two formulations each (for a total of 16 inhibitors), as well as two controls (a positive, IL-6 treated control and a negative DMSO control).
 
 The Allen Institute team preprocessed and annotated the single-cell RNA sequencing data initially, and these steps can be found in their [il6-jak-stat-screen GitHub Repository](https://github.com/aifimmunology/il6-jak-stat-screen/tree/development). 
 
