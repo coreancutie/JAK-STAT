@@ -83,5 +83,16 @@ Below is the tree structure of this repository. The directories that are not col
 ### Differentially Expressed Genes (deg):
 
 ### Gene Set Enrichment Analysis (gseapy):
+Get set enrichment analysis (GSEA) was performed with the `GSEApy` package (Fang et al., 2023) using the MSigDB Hallmark, KEGG, and Reactome databases. First, genes were preranked based on the differential expression (log-fold change) for each drug treatment vs. DMSO control, or for each drug treatment pair's formulation comparisons, within each cell type. Pre-ranked GSEA was then conducted using the ranked gene lists to test for enrichment of predefined gene sets from the three databases.
+
+Code for the pathway enrichment analyses and visualizations performed on the differential expression results for each cell type + drug treatment vs. DMSO control can be found in the following notebooks: `gseapy_<gene_set>_JW.ipynb`.
+- The `il6_jak-stat_paired-form_gseapy_<gene_set>.csv` results include normalized enrichment scores, nominal p-values, and FDR q-values annotated with each cell type and drug treatment vs. control comparison.
+
+For gene set enrichment analysis performed on the differential expression results between formulations for each drug pair, code can be found in these notebooks: `gseapy_head_to_head_<gene_set>_JW.pynb`.
+- The `il6_jak-stat_head_to_head_gseapy_<gene_set>.csv` results include normalized enrichment scores, nominal p-values, and FDR q-values annotated with each cell type and formulation pair comparison.
+
+For each database, certain pathways related to JAK/STAT, IL-6 signaling, immune responses, and innate immunity were selected for visualization purposes.
+
+
 
 ### Single Sample Gene Set Enrichment Analysis (ssgsea):
