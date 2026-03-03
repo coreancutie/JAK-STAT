@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+'''
+A draft of the interactive head-to-head formulation comparisons plotly app for DEG and GSEA results.
+'''
+ 
 # Import packages:
 from dash import Dash, dcc, html, Input, Output
 import dash_bootstrap_components as dbc
