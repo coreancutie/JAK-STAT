@@ -107,4 +107,3 @@ Single sample gene set enrichment analysis specifically for pathway enrichment a
 Code for the single sample pathway enrichment analyses and visualizations performed on the differential expression results for each cell type + drug treatment vs. DMSO control can be found in the following notebooks: `decoupler_hallmark_CC.ipynb`, `decoupler_progeny_CC.ipynb`, and `decoupler_hall_and_prog_CC.ipynb`. 
 
 Enrichment result files `il6_jak-stat_paired-form_ssgsea_hallmark.csv` and `il6_jak-stat_paired-form_ssgsea_progeny.csv` include the mean change enrichment scores, p-values, and adjusted p-values annotated with each cell type, drug, and control for each database.
-
