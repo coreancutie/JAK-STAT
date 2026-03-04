@@ -65,7 +65,7 @@ Below is the tree structure of this repository. The directories that are not col
 │   ├── gseapy_KEGG_JW.ipynb
 │   ├── gseapy_Reactome_JW.ipynb
 │   ├── gseapy_unused_visualization_code.ipynb
-│   └── poster_figures
+│   └── gsea_poster_figures
 ├── README.md
 ├── scanpy_tutorials
 └── ssgsea
