@@ -49,12 +49,10 @@ Below is the tree structure of this repository. The directories that are not col
 │   └── interactive_drug_pairs_vis.py
 ├── gseapy
 │   ├── gsea_tutorials
-│   ├── gseapy_app
-│   │   └── app.py
 │   ├── gseapy_final_files
-│   │   ├── il6_jak-stat_head_to_head_gsea_hallmark.csv
-│   │   ├── il6_jak-stat_head_to_head_gsea_kegg.csv
-│   │   ├── il6_jak-stat_head_to_head_gsea_reactome.csv
+│   │   ├── il6_jak-stat_head_to_head_gseapy_hallmark.csv
+│   │   ├── il6_jak-stat_head_to_head_gseapy_kegg.csv
+│   │   ├── il6_jak-stat_head_to_head_gseapy_reactome.csv
 │   │   ├── il6_jak-stat_paired-form_gseapy_hallmark.csv
 │   │   ├── il6_jak-stat_paired-form_gseapy_kegg.csv
 │   │   └── il6_jak-stat_paired-form_gseapy_reactome.csv
