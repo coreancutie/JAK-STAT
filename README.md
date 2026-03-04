@@ -63,7 +63,9 @@ Below is the tree structure of this repository. The directories that are not col
 │   ├── gseapy_KEGG_JW.ipynb
 │   ├── gseapy_Reactome_JW.ipynb
 │   ├── gseapy_unused_visualization_code.ipynb
-│   └── gsea_poster_figures
+│   └── gseapy_poster_figures
+│   │   ├── CD4Naive_Canertinib_scatterplot.svg
+│   │   ├── CD4EffMem_RuxoComparison_scatterplot.svg
 ├── README.md
 ├── scanpy_tutorials
 └── ssgsea
