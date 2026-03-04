@@ -100,10 +100,12 @@ For gene set enrichment analysis performed on the differential expression result
 
 For each database, certain pathways related to JAK/STAT, IL-6 signaling, immune responses, and innate immunity were selected for visualization purposes.
 
-
 ### Single Sample Gene Set Enrichment Analysis (ssgsea):
 Single sample gene set enrichment analysis specifically for pathway enrichment analysis was using decoupler (Badia‑i‑Mompel et al., 2022) on the differential expression results for each cell type + drug treatment vs. DMSO control. We utilized decoupler's built-in function `dc.mt.ulm()` (Decoupler's Univariate Linear Model), to calculate enrichment scores from the PROGENy and MSigDB Hallmark databases. 
 
 Code for the single sample pathway enrichment analyses and visualizations performed on the differential expression results for each cell type + drug treatment vs. DMSO control can be found in the following notebooks: `decoupler_hallmark_CC.ipynb`, `decoupler_progeny_CC.ipynb`, and `decoupler_hall_and_prog_CC.ipynb`. 
 
 Enrichment result files `il6_jak-stat_paired-form_ssgsea_hallmark.csv` and `il6_jak-stat_paired-form_ssgsea_progeny.csv` include the mean change enrichment scores, p-values, and adjusted p-values annotated with each cell type, drug, and control for each database.
+
+## Head-to-Head Formulation Comparisons Plotly App:
+An interactive Plotly Dash web application exploring gene expression and pathway‑level results between formulations for each drug pair, and for each cell type, can be found linked to this project's [webpage](https://apps.allenimmunology.org/aifi/resources/10x-flex-il6/formulations/), or [here](https://allenimmunology.org/hydration/proxy/dash/1cc64dc0-acdf-4094-96be-d659960aaf5b//). The repository housing this app can be found within the [il6-jak-stat-screen GitHub Repository](https://github.com/aifimmunology/il6-jak-stat-screen/tree/development/uo-bgmp-dash/head-to-head-vis), under the `uo-bgmp-dash` directory.
