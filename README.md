@@ -81,6 +81,13 @@ Below is the tree structure of this repository. The directories that are not col
 ```
 
 ### Differentially Expressed Genes (deg):
+Scanpy’s built in functions were utilized (Wolf, et al. 2018) to perform differential gene expression analysis. For each treatment and cell type, DGEs were determined with log1p-normalized counts using the negative (DMSO) control as the reference through Wilcoxon rank-sum tests. 
+
+DGE was conducted between formulations for each drug pair using the same methodology. The CSV file for this head to head comparision between the formulations can be found in the `head-to-head_wilcoxon_deg_results.csv` file. For each comparison, gene-level statistics (test scores, log fold changes, p-values, and adjusted p-values) were extracted and compiled into individual results tables.
+
+DGE was conducted between cell type + drug vs. control comparison using the same methodology. The results from these comparisons can be found in `wilcoxon_deg_counts_logfc_0.1.csv` and `wilcoxon_deg_counts_logfc_1.csv` where the long fold change was <0.1 and < 1 respectively. For each comparison, gene-level statistics (test scores, log fold changes, p-values, and adjusted p-values) were extracted and compiled into individual results tables.
+
+CSV files for each cell type + drug vs. control comparison (preserving all genes in the limited panel) were used as input for downstream gene set enrichment analysis and single sample gene set enrichment analysis. 
 
 ### Gene Set Enrichment Analysis (gseapy):
 Get set enrichment analysis (GSEA) was performed with the `GSEApy` package (Fang et al., 2023) using the MSigDB Hallmark, KEGG, and Reactome databases. First, genes were preranked based on the differential expression (log-fold change) for each drug treatment vs. DMSO control, or for each drug treatment pair's formulation comparisons, within each cell type. Pre-ranked GSEA was then conducted using the ranked gene lists to test for enrichment of predefined gene sets from the three databases.
@@ -94,5 +101,9 @@ For gene set enrichment analysis performed on the differential expression result
 For each database, certain pathways related to JAK/STAT, IL-6 signaling, immune responses, and innate immunity were selected for visualization purposes.
 
 
-
 ### Single Sample Gene Set Enrichment Analysis (ssgsea):
+Single sample gene set enrichment analysis specifically for pathway enrichment analysis was using decoupler (Badia‑i‑Mompel et al., 2022) on the differential expression results for each cell type + drug treatment vs. DMSO control. We utilized decoupler's built-in function `dc.mt.ulm()` (Decoupler's Univariate Linear Model), to calculate enrichment scores from the PROGENy and MSigDB Hallmark databases. 
+
+Code for the single sample pathway enrichment analyses and visualizations performed on the differential expression results for each cell type + drug treatment vs. DMSO control can be found in the following notebooks: `decoupler_hallmark_CC.ipynb`, `decoupler_progeny_CC.ipynb`, and `decoupler_hall_and_prog_CC.ipynb`. 
+
+Enrichment result files `il6_jak-stat_paired-form_ssgsea_hallmark.csv` and `il6_jak-stat_paired-form_ssgsea_progeny.csv` include the mean change enrichment scores, p-values, and adjusted p-values annotated with each cell type, drug, and control for each database.
