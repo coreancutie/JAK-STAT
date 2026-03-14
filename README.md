@@ -18,7 +18,7 @@ To learn more about known JAK/STAT inhibitors that either already serve as treat
 - identify differences between formulations
 - explore off-target effects using singlecell RNA-sequencing data.
 
-## Enviroment
+## Environment
 Most of the single-cell analyses and visualizations were completed on the Allen Institute for Immunology's Human Immune System Explorer (HISE), using Jupyter Notebook instances. All notebooks are compatible with Python3.
 
 ## Repository Structure
