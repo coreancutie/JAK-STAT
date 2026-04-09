@@ -83,9 +83,9 @@ Below is the tree structure of this repository. The directories that are not col
 ### Differentially Expressed Genes (deg):
 Scanpy’s built in functions were utilized (Wolf, et al. 2018) to perform differential gene expression analysis. For each treatment and cell type, DGEs were determined with log1p-normalized counts using the negative (DMSO) control as the reference through Wilcoxon rank-sum tests. 
 
-DGE was conducted between formulations for each drug pair using the same methodology. The CSV file for this head to head comparision between the formulations can be found in the `head-to-head_wilcoxon_deg_results.csv` file. For each comparison, gene-level statistics (test scores, log fold changes, p-values, and adjusted p-values) were extracted and compiled into individual results tables.
+DGE was first conducted between cell type + drug vs. control comparison. The results from these comparisons can be found in `wilcoxon_deg_counts_logfc_0.1.csv` and `wilcoxon_deg_counts_logfc_1.csv`, where the log-fold change was <0.1 and <1, respectively. For each comparison, gene-level statistics (test scores, log fold changes, p-values, and adjusted p-values) were extracted and compiled into individual results tables.
 
-DGE was conducted between cell type + drug vs. control comparison using the same methodology. The results from these comparisons can be found in `wilcoxon_deg_counts_logfc_0.1.csv` and `wilcoxon_deg_counts_logfc_1.csv` where the long fold change was <0.1 and < 1 respectively. For each comparison, gene-level statistics (test scores, log fold changes, p-values, and adjusted p-values) were extracted and compiled into individual results tables.
+DGE was conducted between formulations for each drug pair using the same methodology. The CSV file for this head-to-head comparision between the formulations can be found in the `head-to-head_wilcoxon_deg_results.csv` file. For each comparison, gene-level statistics (test scores, log fold changes, p-values, and adjusted p-values) were extracted and compiled into individual results tables.
 
 CSV files for each cell type + drug vs. control comparison (preserving all genes in the limited panel) were used as input for downstream gene set enrichment analysis and single sample gene set enrichment analysis. 
 
