@@ -16,7 +16,7 @@ The Interleukin 6 (IL-6) Janus kinases/Signal Transducers and Activators of Tran
 To learn more about known JAK/STAT inhibitors that either already serve as treatments or autoimmune diseases, or have the potential to be used as a treatment drug, this project aims to:
 - investigate isolated T-cell response to the 16 JAK/STAT inhibitors
 - identify differences between formulations
-- explore off-target effects using singlecell RNA-sequencing data.
+- explore off-target effects using single-cell RNA-sequencing data.
 
 ## Environment
 Most of the single-cell analyses and visualizations were completed on the Allen Institute for Immunology's Human Immune System Explorer (HISE), using Jupyter Notebook instances. All notebooks are compatible with Python3.
